@@ -61,5 +61,7 @@ const answer = window.prompt(questionsAndAnswer[randomNumber].question);
 const correctAnswer = questionsAndAnswer[randomNumber].answer.toLowerCase();
 
 // Alert the user with their response and check if it's correct
-window.alert(`You answered: ${answer}`);
+//window.alert("You Answered: ${answer}\nThe Correct Answer is:"${ questionsAndAnswer[randomNumber].answer });
 // window.alert(`You answered: ${questionsAndAnswer[randomNumber].answer}`);
+
+window.alert(`You Answered: ${answer}\nThe Correct Answer is: ${questionsAndAnswer[randomNumber].answer}`);
