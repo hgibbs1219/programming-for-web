@@ -20,19 +20,12 @@ function createTitle() {
     fill("#57c4e5"); //Circle Color - Vivid Sky Blue
     fill("#d1d646"); //Circle Color - Pear - Top Left Corner
     ellipse(0, 0, 150);
-    //retangle
+    //retangle - Pear
     rect(0, 130, 160, 50);
-
-
-
-
-
-
-
-
 
 }
 
 function draw() {
     createTitle();
+    noLoop();
 }
